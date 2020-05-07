@@ -28,5 +28,5 @@ try:
 except:
     print("资源加载失败")
 finally:
-    driver.close()
+    driver.close() 
 
