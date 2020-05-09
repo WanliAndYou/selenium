@@ -34,12 +34,12 @@ class TestStringMethods(unittest.TestCase):
         print("3")
 
 if __name__ == '__main__':
+
     suite = unittest.TestSuite()
     # suite控制TestCase执行顺序
     suite.addTest(TestStringMethods("test_upper"))
     suite.addTest(TestStringMethods("test_isupper"))
     suite.addTest(TestStringMethods("test_split"))
 
-    runner = unittest.TextTestRunner(verbosity=3)
+    runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
-    # unittest.main()
