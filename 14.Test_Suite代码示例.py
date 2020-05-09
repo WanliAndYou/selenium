@@ -2,6 +2,7 @@
 # 脚本名不能用unittest.py
 import unittest
 from selenium import webdriver
+import HTMLTestRunner
 
 class TestStringMethods(unittest.TestCase):
 
